@@ -2,16 +2,17 @@
 % Craft Physical & RCS Properties
 % ===============================
 
-craft.mass = 1.0;
-craft.gravity = 9.81;
-craft.inertia = 1.0;
+mass = 1.0;
+gravity = 9.81;
+inertia = 1.0;
 
-craft.gas.pressure = 1e6;
-craft.gas.temperature = 293.15;
-craft.gas.gamma = 1.3;
-craft.gas.R = 189;
+gas_pressure_pa       = 1e6;
+gas_temperature_k     = 293.15;
+gas_gamma             = 1.3;
+gas_R_j_per_kgk       = 189;
 
-craft.thruster.diameter = 0.001;
-craft.thruster.Cd = 0.85;
-craft.thruster.positionFromCOM = 1.0;
-craft.thruster.gasinitialMass = 0.05;
+thruster_diameter_m          = 0.001;
+thruster_discharge_coeff     = 0.85;
+thruster_position_from_com_m = 1.0;
+thruster_initialMass     = 0.05;
+thrustInNewton = 10;
